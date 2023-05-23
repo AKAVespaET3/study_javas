@@ -1,23 +1,32 @@
 public class MakingGameOneHand {
     public static void main(String[] args) {
-        int a = 1;
-        int b = 2;
-        int c = 0;
-        
-        System.out.println(a + " " + b + " " + c);
 
-        a = 0;
-        b = 1;
-        c = 2;
-        
-        System.out.println(a + " " + b + " " + c);
-        
-        a = 2;
-        b = 0;
-        c = 1;
-        
-        System.out.println(a + " " + b + " " + c);
-        
-       
+        String A = "0";
+            String B = "0";
+            String C = "0";
+            System.out.println(A);
+            System.out.println(B);
+            System.out.println(C);
+            A = "1";
+            C = "2";
+            System.out.println(A);
+            System.out.println(B);
+            System.out.println(C);
+            B = C;
+            C = "0";
+            System.out.println(A);
+            System.out.println(B);
+            System.out.println(C);
+            C = A;
+            A = "0";
+            System.out.println(A);
+            System.out.println(B);
+            System.out.println(C);
+            A = B;
+            B = "0";
+            System.out.println(A);
+            System.out.println(B);
+            System.out.println(C);
+            // return 0;
     }
 }
