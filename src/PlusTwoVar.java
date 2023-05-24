@@ -6,7 +6,10 @@ public class PlusTwoVar {
         int first = Goni.nextInt();
         int second = Goni.nextInt();
 
-        System.out.println(first + second);
+        System.out.println("first와 second를 더한 값은 " + (first + second) + " 입니다.");
+        
+        
     }
     
 }
+ 
