@@ -5,10 +5,12 @@ public class LoopWithCounter {
         int repeat = 5;
         int count = 1;
 
-        while (count < repeat ) {
+        while (count <= repeat ) {
+
             System.out.println(num);
             num = num + 1;
             count = count + 1;
+
         }
     }
 }
