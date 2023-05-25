@@ -10,8 +10,10 @@ public static void main(String[] args) {
     int first = myObj.nextInt();
    int second = myObj.nextInt();
     System.out.println(first + ", " + second);
+    
       //return 0;
   }
+  
 }
   
 

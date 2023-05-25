@@ -6,17 +6,18 @@ public class LoopNestedLoops {
             System.out.println("For" + first);
             for(int second = 1; second < 5 ; second = second + 1){
                 if(first >= second ){
-                    System.out.println(">A<");
+                    System.out.print(">A<" + " ");
                 }
             }
+            System.out.println();
         }
-        // for (int first = 1; first < 5; first = first + 1) {
-        //     System.out.println("For" + first + "입니다.");
-        //     for (int second = 0; second <= first; second = second + 1) {
-        //         System.out.print("_? ");
-        //     }
-        //     System.out.println();
-        // }
-        // System.out.println("End");
+        for (int first = 1; first < 5; first = first + 1) {
+            System.out.println("For" + first + "입니다.");
+            for (int second = 1; second <= first; second = second + 1) {
+                System.out.print("_? ");
+            }
+            System.out.println();
+        }
+        System.out.println("End");
    } 
 }

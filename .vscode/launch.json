@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PollsWuthoutMethod",
+            "request": "launch",
+            "mainClass": "PollsWuthoutMethod",
+            "projectName": "study_javas_6234c49a"
+        },
+        {
+            "type": "java",
+            "name": "Polls",
+            "request": "launch",
+            "mainClass": "Polls",
+            "projectName": "study_javas_6234c49a"
+        },
+        {
+            "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "study_javas_6234c49a"
+        },
+        {
+            "type": "java",
             "name": "LoopWithMark",
             "request": "launch",
             "mainClass": "LoopWithMark",
