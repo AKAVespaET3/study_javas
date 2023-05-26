@@ -21,7 +21,7 @@ public class CasherFor {
 
                 if (input == 0){
                     break;
-                } else if(input < 100) {
+                } else if(input <= 100) {
                     values[first] = input;
                 } else {
                     values[first] = 0;
