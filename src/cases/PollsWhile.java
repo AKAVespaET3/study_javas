@@ -23,37 +23,21 @@ public class PollsWhile {
             while(loops){
 
                 menu = in.nextLine();
-                if(menu.equals("E") ){
+                if(menu.equals("E")||menu.equals("exit")){
 
                     System.out.println("선택입력 : E or Exit");
                     System.out.println("----------설문 종료----------"); 
                     break;
 
-                } else if(menu.equals("exit")){
-
-                    System.out.println("선택입력 : E or Exit");
-                    System.out.println("----------설문 종료----------");
-                    break;
-                    
-                } else if(menu.equals("P")){
+                } else if(menu.equals("P")||menu.equals("poll")){
 
                     System.out.println("선택입력 : P or Poll");
                     System.out.println("----------설문 시작----------");
                     
-                } else if(menu.equals("poll")){
-
-                    System.out.println("선택입력 : P or Poll");
-                    System.out.println("----------설문 시작----------");
-
-                } else if(menu.equals("S")){
+                } else if(menu.equals("S")||menu.equals("statistic")){
                     
                     System.out.println("선택입력 : S or Statistic");
                     System.out.println("----------설문 통계----------");  
-
-                } else if(menu.equals("statistic")){
-
-                    System.out.println("선택입력 : S or Statistic");
-                    System.out.println("----------설문 통계----------"); 
 
                 } else {
                     System.out.println("해당사항이 없습니다. 다시 선택 해주세요");
