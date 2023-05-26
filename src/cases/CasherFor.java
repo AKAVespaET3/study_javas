@@ -19,7 +19,9 @@ public class CasherFor {
                 System.out.print((first + 1) + "번째 가격: ");
                 int input = sc.nextInt();
 
-                if (input < 100) {
+                if (input == 0){
+                    break;
+                } else if(input < 100) {
                     values[first] = input;
                 } else {
                     values[first] = 0;
