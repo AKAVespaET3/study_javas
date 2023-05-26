@@ -16,7 +16,8 @@ public class PollsWuthoutMethod {
             {"4. 문항. 당신은 누구입니까?"}, 
             {"(1) 김명곤, (2) 제나아빠, (3) 국힙원탑, (4) 최지윤 남편 (5) GONI"}
         };
-        String[] answers = new String[4]; // 답변을 저장할 배열
+        String[] answers = new String[4]; // 배열의 크기는 4이지만 갖고 있는 실제 데이터는 없는 상태, 배열에 넣을 원소를 나중에 지정하고 싶을 땐 이러한 방식을 채택하면 된다.
+        
 
         int count = 0;
 

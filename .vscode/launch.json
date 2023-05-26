@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CasherFor",
+            "request": "launch",
+            "mainClass": "cases.CasherFor",
+            "projectName": "study_javas_6234c49a"
+        },
+        {
+            "type": "java",
+            "name": "ForBuckets",
+            "request": "launch",
+            "mainClass": "cases.ForBuckets",
+            "projectName": "study_javas_6234c49a"
+        },
+        {
+            "type": "java",
+            "name": "WhileWithScanners",
+            "request": "launch",
+            "mainClass": "WhileWithScanners",
+            "projectName": "study_javas_6234c49a"
+        },
+        {
+            "type": "java",
             "name": "PollsWuthoutMethod",
             "request": "launch",
             "mainClass": "PollsWuthoutMethod",
