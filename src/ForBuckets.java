@@ -12,6 +12,9 @@ public class ForBuckets {
             String bucket_3 = "";
             String[] bucket = {"","",""};
 
+            int[] abc = new int[3];
+            abc[0] = 10;
+            System.out.println(abc[0]);
             Scanner sc = new Scanner(System.in);
             
             for(int first = 0; first < bucket.length; first = first +1){
