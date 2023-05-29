@@ -37,6 +37,7 @@ public class PollsWuthoutMethod {
         for (int first = 0; first < answers.length; first = first + 1) {
             System.out.print("(first+1)" + answers[first] + " ");
         }
+        sc.close(); 
     }
 }
 

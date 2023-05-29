@@ -37,13 +37,14 @@ public class CasherFor {
             System.out.println("합계 : " + sum);
             System.out.println("");
             System.out.println("--- 계산 종료---");
-
+            sc.close(); 
         } catch (Exception e) {
             // TODO: handle exception
         } finally {
 
         }
         System.out.println();
+        
         // return 0;
     }
 

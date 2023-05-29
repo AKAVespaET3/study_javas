@@ -43,7 +43,7 @@ public class PollsWhile {
                     System.out.println("해당사항이 없습니다. 다시 선택 해주세요");
                     
                 }
-                
+                in.close(); 
             }
         } catch (Exception e) {
             System.out.println();

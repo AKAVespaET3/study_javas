@@ -8,7 +8,7 @@ public class PlusTwoVar {
 
         System.out.println("first와 second를 더한 값은 " + (first + second) + " 입니다.");
         
-        
+        Goni.close(); 
     }
     
 }

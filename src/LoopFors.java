@@ -15,7 +15,7 @@ public class LoopFors {
             for(int j = 1 ; j < 10 ; j++){
                 System.out.println(first + " * " + j + " = " + first * j);
             }
-      
+            in.close(); 
         }
         
     }    

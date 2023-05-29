@@ -19,7 +19,7 @@ public class ForBuckets {
             System.out.print(bucket[0]+ ", ");
             System.out.print(bucket[1]+ ", ");
             System.out.print(bucket[2]);
-
+            sc.close(); 
 
         } catch (Exception e) {
             // TODO: handle exception
@@ -28,5 +28,6 @@ public class ForBuckets {
         }
         System.out.println();
         // return 0;
+       
     }
 }
