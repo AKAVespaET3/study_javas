@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "retire",
+            "request": "launch",
+            "mainClass": "cases.retire",
+            "projectName": "study_javas_c6cc999d"
+        },
+        {
+            "type": "java",
             "name": "CasherFor",
             "request": "launch",
             "mainClass": "cases.CasherFor",
