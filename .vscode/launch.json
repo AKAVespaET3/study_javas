@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ForBuckets",
+            "request": "launch",
+            "mainClass": "ForBuckets",
+            "projectName": "study_javas_c6cc999d"
+        },
+        {
+            "type": "java",
             "name": "retire",
             "request": "launch",
             "mainClass": "cases.retire",

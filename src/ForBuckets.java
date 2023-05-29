@@ -7,14 +7,7 @@ public class ForBuckets {
             
             //장바구니 3가지 선언
             
-            String bucket_1 = "";
-            String bucket_2 = "";
-            String bucket_3 = "";
-            String[] bucket = {"","",""};
-
-            int[] abc = new int[3];
-            abc[0] = 10;
-            System.out.println(abc[0]);
+            String[] bucket = new String[3];
             Scanner sc = new Scanner(System.in);
             
             for(int first = 0; first < bucket.length; first = first +1){
