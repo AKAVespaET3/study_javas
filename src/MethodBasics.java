@@ -21,7 +21,7 @@ public class MethodBasics {
             y = y + 1; // 변수에 + 1
             y = methodBacsic_first.F(0);
             y = methodBacsic_first.F(y);
-            
+            System.out.println("y에 값은 : " + y);
         } catch (Exception e) {
             
         }

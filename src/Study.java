@@ -1,21 +1,16 @@
 import java.util.Scanner;
-public class Study {
-    
-public static void main(String[] args) {
-    
-    Scanner in = new Scanner(System.in);
-        int A = in.nextInt();
 
-    if(A >= 90){
-        System.out.println("A");
-    } else if(A >= 80){
-        System.out.println("B");
-    } else if(A >= 70){
-        System.out.println("C");
-    } else if(A >= 60){
-        System.out.println("D");
-    } else{
-        System.out.println("F");
+public class Study {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] chessPieces = { 1, 1, 2, 2, 2, 8 };
+
+        for (int i = 0; i < 6; i++) {
+            int input = sc.nextInt();
+            int result = chessPieces[i] - input;
+            System.out.print(result + " ");
+        }
+
+        sc.close();
     }
- }  
 }
