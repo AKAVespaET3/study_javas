@@ -28,7 +28,7 @@ public class retire {
                 price[i] = 0;  //0원 적용
              }  
          }
-
+         
          for (j = 0; j < price.length; j = j + 1){
             sum = sum + price[j];     
          }
@@ -37,7 +37,8 @@ public class retire {
          System.out.println("합계 : " + sum);
          System.out.println("");
          System.out.println("--- 계산 종료---");
-         in.close(); 
-
+         in.close();
+         
    }
+   
 }

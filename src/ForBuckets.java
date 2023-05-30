@@ -22,7 +22,7 @@ public class ForBuckets {
             sc.close(); 
 
         } catch (Exception e) {
-            // TODO: handle exception
+           
         } finally{
             
         }
