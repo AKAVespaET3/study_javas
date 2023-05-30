@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MethodBasics",
+            "request": "launch",
+            "mainClass": "MethodBasics",
+            "projectName": "study_javas_6234c49a"
+        },
+        {
+            "type": "java",
+            "name": "Study",
+            "request": "launch",
+            "mainClass": "Study",
+            "projectName": "study_javas_6234c49a"
+        },
+        {
+            "type": "java",
             "name": "PollsWhile",
             "request": "launch",
             "mainClass": "cases.PollsWhile",
