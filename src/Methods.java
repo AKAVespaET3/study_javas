@@ -32,12 +32,12 @@ public class Methods {
         int y = 0;
      try {
         Methods method = new Methods();
-        y = method.add(2, 2);
-        y = y + method.add(2, 2);
-        y = y + method.add(2, 2);
-        y = y + method.add(2, 2);
-        y = y + method.minus(2, 1);
-        System.out.println("y에 값은 : " + y);
+        for(int i = 0 ; i < 4; i = i + 1 ){
+            y = y + method.add(2, 2);    
+        } 
+            y = y + method.minus(2, 1);
+            
+            System.out.println("y에 값은 : " + y);
      } catch (Exception e) {
         // TODO: handle exception
      }  
