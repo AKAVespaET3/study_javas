@@ -18,7 +18,7 @@ public class Methods {
         try {
            result = fisrt + second;
         } catch (Exception e) {
-            // TODO: handle exception
+            
         }
         return result;
     }
@@ -39,7 +39,7 @@ public class Methods {
             
             System.out.println("y에 값은 : " + y);
      } catch (Exception e) {
-        // TODO: handle exception
+      
      }  
      //return 0; 
     }

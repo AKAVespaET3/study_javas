@@ -20,7 +20,7 @@ public class MethodSwitchs {
                     break;
             }
         } catch (Exception e) {
-            // TODO: handle exception
+           
         }
         return str;
     }
@@ -41,7 +41,7 @@ public class MethodSwitchs {
             in.close();
 
         } catch (Exception e) {
-            // TODO: handle exception
+           
         }
         // return 0;
     }
