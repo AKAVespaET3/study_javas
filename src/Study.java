@@ -4,14 +4,18 @@ public class Study {
 public static void main(String[] args) {
     
     Scanner in = new Scanner(System.in);
+        int A = in.nextInt();
 
-    int A = in.nextInt();
-    int sum = 0;
-    
-    for(int i = 1 ;  i<= A; i++){
-        sum = sum + i;
+    if(A >= 90){
+        System.out.println("A");
+    } else if(A >= 80){
+        System.out.println("B");
+    } else if(A >= 70){
+        System.out.println("C");
+    } else if(A >= 60){
+        System.out.println("D");
+    } else{
+        System.out.println("F");
     }
-    System.out.println(sum);
-    in.close();  
  }  
 }
