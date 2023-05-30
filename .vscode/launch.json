@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MethodIfs",
+            "request": "launch",
+            "mainClass": "MethodIfs",
+            "projectName": "study_javas_c6cc999d"
+        },
+        {
+            "type": "java",
             "name": "MethodsIfs",
             "request": "launch",
             "mainClass": "MethodsIfs",
