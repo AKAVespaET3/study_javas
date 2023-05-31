@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GitTemplates",
+            "request": "launch",
+            "mainClass": "GitTemplates",
+            "projectName": "study_javas_6234c49a"
+        },
+        {
+            "type": "java",
             "name": "MethodIfs",
             "request": "launch",
             "mainClass": "MethodIfs",
