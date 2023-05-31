@@ -11,7 +11,4 @@ public class GitTemplates {
         // return 0;
     }
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> ae2e29d5429eaf9e27951509294b2040335beb8c
