@@ -27,8 +27,7 @@ public class Methods {
         // - 인스턴스는 1회
         // - 초기 값은 2를 넘지 않음
         // - main 결과값은 17
-        int first = 0;
-        int second = 0;
+       
         int y = 0;
      try {
         Methods method = new Methods();

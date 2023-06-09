@@ -20,7 +20,7 @@ public class PollsWuthoutMethod {
         
 
         int count = 0;
-
+       
         for (int second = 0; second < polls.length; second = second + 2) {
             System.out.println(polls[second][0]);
             System.out.println(polls[second + 1][0]);
@@ -34,8 +34,10 @@ public class PollsWuthoutMethod {
         System.out.println("");
         System.out.println("----------설문 결과----------");
         
+        System.out.println(name + " 님");
+        System.out.println();
         for (int first = 0; first < answers.length; first = first + 1) {
-            System.out.print("(first+1)" + answers[first] + " ");
+            System.out.print((first+1)+ "번 : " + answers[first] + " ");
         }
         sc.close(); 
     }

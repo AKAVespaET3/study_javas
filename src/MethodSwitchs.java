@@ -31,8 +31,6 @@ public class MethodSwitchs {
 
         try {
             int day = in.nextInt(); // 1 ~ 4 가능
-            String str = "";
-
             MethodSwitchs methodSwitchs = new MethodSwitchs();
 
             String returnResult = methodSwitchs.today(day);

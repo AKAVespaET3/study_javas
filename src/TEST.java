@@ -1,12 +1,12 @@
+import java.util.Scanner;
+
 public class TEST {
     public static void main(String[] args) {
-        for(int i = 0; i <= 10 ; i++){
-            if ( i % 2 == 0){ 
-                System.out.println(i);
-            } else{
-                System.out.println();
-            } 
-            
+        Scanner in = new Scanner(System.in);
+            int  a = in.nextInt();
+            int cal = 543;
+            System.out.println(a - cal);
+
         }
     }
-}
+
