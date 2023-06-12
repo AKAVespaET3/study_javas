@@ -1,6 +1,7 @@
 
 import java.sql.*;
 
+import cars.AnyStatements;
 import cars.FactoryDMLs;
 
 public class ConnetDBsWithMethods {
@@ -18,8 +19,9 @@ public class ConnetDBsWithMethods {
             // - query Edit
             Statement statement = connection.createStatement(); //쿼리창 edit창 statement
             String query = "SELECT * FROM factorys";
+            AnyStatements anyStatements = new AnyStatements();
             FactoryDMLs factoryDMLs = new FactoryDMLs();
-            ResultSet resultSet = factoryDMLs.selectstatement(statement, query);
+            ResultSet resultSet = anyStatements.selectStatement(statement, query);
             while (resultSet.next()) {
                 System.out.println(resultSet.getString("COMPANY_ID") + resultSet.getString("COMPANY"));
             }
@@ -47,7 +49,7 @@ public class ConnetDBsWithMethods {
                     "('"+companyId+"', '"+company+"') ";
             
             int count = factoryDMLs.insertStatements(statement, query);
-            
+
             statement.close();
             connection.close();
             System.out.println();
